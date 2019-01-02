@@ -152,4 +152,3 @@ def diophantine_equation(a, b, c):
     c = c // gcd
     m, n = bezout_coefficients(a, b)
     return (b, c * m), (-a, c * n)
-
